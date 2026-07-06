@@ -66,6 +66,11 @@ main() {
     yjd_require_command bash
 
     yjd_log_success "Environment looks good."
+    yjd_newline
+
+yjd_section "System Information"
+
+yjd_print_distro_info
 
     yjd_newline
 

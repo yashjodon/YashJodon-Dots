@@ -1,0 +1,24 @@
+/**
+ * ==========================================================
+ * YashJodon-Dots
+ * Rofi Configuration
+ * ==========================================================
+ */
+
+configuration {
+    modi: "drun";
+    show-icons: true;
+
+    display-drun: "Applications";
+
+    icon-theme: "Papirus-Dark";
+
+    drun-display-format: "{name}";
+    hover-select: true;
+
+    disable-history: false;
+
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+@theme "themes/yj-dark.rasi"

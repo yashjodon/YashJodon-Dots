@@ -9,3 +9,6 @@ readonly PROJECT_ROOT="$(
 
 # shellcheck source=utils/utils.sh
 source "${PROJECT_ROOT}/scripts/utils/utils.sh"
+# shellcheck source=scripts/modules/distro.sh
+source "${PROJECT_ROOT}/scripts/modules/distro.sh"
+
