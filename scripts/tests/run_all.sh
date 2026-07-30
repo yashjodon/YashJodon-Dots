@@ -18,6 +18,8 @@ bash "${SCRIPT_DIR}/test_files.sh"
 bash "${SCRIPT_DIR}/test_ui.sh"
 bash "${SCRIPT_DIR}/test_timer.sh"
 bash "${SCRIPT_DIR}/test_installer.sh"
+bash "${SCRIPT_DIR}/test_distro.sh"
+bash "${SCRIPT_DIR}/test_packages.sh"
 
 echo
 echo "========================================"

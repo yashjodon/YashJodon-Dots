@@ -1,0 +1,123 @@
+/**
+ * ==========================================================
+ * YashJodon-Dots
+ * Professional Dark Theme
+ * ==========================================================
+ */
+
+* {
+
+    background:     #181A1F;
+    background-alt: #20242B;
+
+    foreground:     #F5F7FA;
+    foreground-alt: #B8C0CC;
+
+    border:         #323844;
+
+    selected:       #4FA3FF;
+    selected-text:  #FFFFFF;
+
+    active:         #4FD1C5;
+
+    urgent:         #E05D5D;
+
+    font: "JetBrainsMono Nerd Font 11";
+
+}
+
+window {
+
+    width: 600px;
+
+    border: 1px;
+    border-color: @border;
+
+    border-radius: 8px;
+
+    background-color: @background;
+
+    padding: 16px;
+}
+
+mainbox {
+
+    spacing: 12px;
+
+    children: [
+        inputbar,
+        message,
+        listview
+    ];
+}
+
+inputbar {
+
+    background-color: @background-alt;
+
+    border: 1px;
+
+    border-radius: 8px;
+
+    border-color: @border;
+
+    padding: 10px;
+
+    children: [
+        prompt,
+        entry
+    ];
+}
+
+prompt {
+
+    text-color: @selected;
+
+    padding: 0px 8px 0px 0px;
+}
+
+entry {
+
+    text-color: @foreground;
+
+    placeholder: "Search applications...";
+}
+
+listview {
+
+    columns: 1;
+
+    lines: 8;
+
+    spacing: 6px;
+
+    scrollbar: false;
+
+    cycle: true;
+}
+
+element {
+
+    background-color: transparent;
+
+    border-radius: 8px;
+
+    padding: 8px;
+}
+
+element selected {
+
+    background-color: @selected;
+
+    text-color: @selected-text;
+}
+
+element-text {
+
+    text-color: @foreground;
+}
+
+element-icon {
+
+    size: 24px;
+}

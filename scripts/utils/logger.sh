@@ -15,6 +15,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Load color library
 # shellcheck disable=SC1091
 source "${SCRIPT_DIR}/colors.sh"
+
 readonly LOG_DIR="${HOME}/.local/share/yashjodon-dots/logs"
 readonly LOG_FILE="${LOG_DIR}/installer.log"
 
